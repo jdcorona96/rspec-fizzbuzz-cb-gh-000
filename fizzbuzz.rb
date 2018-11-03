@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
 
-  if in % 3 == 0 && in % 5 == 0
+  if int % 3 == 0 && int % 5 == 0
     return "FizzBuzz"
-  elsif in % 3 == 0
+  elsif int % 3 == 0
      return "Fizz"
-  elsif in % 5 == 0
+  elsif int % 5 == 0
     return "Buzz"
   else
     return nil
